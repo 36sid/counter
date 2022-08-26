@@ -1,0 +1,54 @@
+.container {
+    width: 500px;
+    height: 30%;
+    background-color: rgb(169, 112, 112);
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+    margin: auto;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+    font-family:monospace;
+}
+
+#value {
+    font-size: 300%;
+    margin: auto;
+    display: table;
+    font-family: monospace;
+    
+    
+}
+
+.button-container{
+
+    
+    display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn {
+    margin: auto;
+    border-width: 3px;
+    border-radius: 10%;
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    background-color: bisque;
+    font-family: monospace;
+    text-decoration: solid;
+}
+
+body {
+    background-color: blanchedalmond;
+}
